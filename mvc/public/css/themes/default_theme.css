@@ -1,0 +1,58 @@
+
+header .navbar a.scrollto{
+  background: -webkit-linear-gradient(to right,#007bff00,#007bff); /*Safari 5.1-6*/
+  background: -o-linear-gradient(to right,#007bff00,#007bff); /*Opera 11.1-12*/
+  background: -moz-linear-gradient(to right,#007bff00,#007bff); /*Fx 3.6-15*/
+  background: linear-gradient(to right, #007bff00, #007bff); /*Standard*/
+}
+header .container.rounded{
+    background-color: #cce5ff24;
+}
+.dropdown-menu{background-color: #2074e147;}
+.dropdown-menu .dropdown-item:hover{background-color: #2074e188;}
+
+#intro .intro-info h2 span {
+  color: #74b5fc;
+}
+#intro .intro-info .btn-account,
+.input-group-text{
+  background: #007bff;
+  border: 1px solid #007bff;
+}
+#intro .intro-info .btn-sign-in:hover {
+  background: #007bff;
+  border-color: #007bff;
+}
+#sendmessage {
+  color: #0078ff;
+  border: 1px solid #0078ff;
+}
+#signin table.table-hover thead th{
+  background-color: #0078ff;
+  border: 2px solid #290df024;
+}
+.title-left:before {
+  background-color: #0078ff;
+}
+.socials .ico-circle {
+  box-shadow: 0 0 0 3px #0078ff;
+}
+.socials .ico-circle:hover {
+  background-color: #0078ff;
+}
+
+.ico-circle {
+  box-shadow: 0 0 0 10px #0078ff;
+}
+.list-ico span {
+  color: #0078ff;
+}
+.button:hover {
+  background-color: #0062d3;
+}
+.button-a {
+  background-color: #0078ff;
+}
+header .container.rounded {
+  background-color: #0d1cf024;
+}
