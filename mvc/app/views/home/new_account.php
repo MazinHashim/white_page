@@ -5,7 +5,7 @@
 <?php $title = "Create New Account"; ?>
 
 <?php include_once "includes/start_form_design.php" ?>
-    <form id="account-form" action="\PHP_MVC/mvc/public/home/new_account" method="post" role="form">
+    <form id="account-form" action="\white_page/mvc/public/home/new_account" method="post" role="form">
     <div class="row">
       <div class="col-md-12 mb-3">
         <div class="form-group">

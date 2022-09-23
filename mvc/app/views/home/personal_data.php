@@ -18,7 +18,7 @@
     </div>
   </form>
   <?php if($_SESSION["userstatus"] === "Admin"){ ?>
-    <form action="\PHP_MVC/mvc/public/home/add_person" method="post">
+    <form action="\white_page/mvc/public/home/add_person" method="post">
       <input type="submit" name="new-person-submit"class="button btn-primary" value="Add New Person"/>
     </form>
   <?php } ?>
@@ -54,8 +54,8 @@
         echo "<td>{$person["jop"]}</td>";
         echo "<td>{$person["location"]}</td>";
         if($_SESSION["userstatus"] === "Admin"){
-          echo "<td><a class='btn-sm btn-outline-primary' href='\PHP_MVC/mvc/public/home/add_person/{$person["personal_id"]}'><i class='fa fa-edit'></i></a></td>";
-          echo "<td><a class='btn-sm btn-outline-danger' href='\PHP_MVC/mvc/public/home/personal_data/{$person["personal_id"]}'><i class='fa fa-trash-alt'></i></a></td>";
+          echo "<td><a class='btn-sm btn-outline-primary' href='\white_page/mvc/public/home/add_person/{$person["personal_id"]}'><i class='fa fa-edit'></i></a></td>";
+          echo "<td><a class='btn-sm btn-outline-danger' href='\white_page/mvc/public/home/personal_data/{$person["personal_id"]}'><i class='fa fa-trash-alt'></i></a></td>";
         }
         echo "</tr>";
       }

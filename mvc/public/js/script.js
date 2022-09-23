@@ -30,7 +30,7 @@ $(function(){
          .eq(6).css("backgroundColor","yellow");
 
     colorSpan.parent().on("click",function(){
-        $("link[href*='theme']").attr("href","\\PHP_MVC/mvc/public/css/themes/"+$(this).attr("data-value"));
+        $("link[href*='theme']").attr("href","\\white_page/mvc/public/css/themes/"+$(this).attr("data-value"));
         console.log($("link[href*='theme']").attr("href"));
     });
 

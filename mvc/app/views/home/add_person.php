@@ -20,9 +20,9 @@ if(!empty($_GET["personal_id"])){
 ?>
 <?php include_once "includes/start_form_design.php" ?>
 <?php if(!empty($personal_id)){ ?>
-    <form id="person-form" action="\PHP_MVC/mvc/public/home/edit_person/<?=$personal_id?>" method="post" role="form">
+    <form id="person-form" action="\white_page/mvc/public/home/edit_person/<?=$personal_id?>" method="post" role="form">
 <?php } else { ?>
-    <form id="person-form" action="\PHP_MVC/mvc/public/home/personal_data" method="post" role="form">
+    <form id="person-form" action="\white_page/mvc/public/home/personal_data" method="post" role="form">
   <?php } ?>
     <div class="row">
       <div class="col-md-12 mb-3">

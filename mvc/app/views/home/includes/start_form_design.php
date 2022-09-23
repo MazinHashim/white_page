@@ -10,7 +10,7 @@
                   <?php echo $title ?>
                 </h5>
                 <?php if(isset($_SESSION["usersignin"])){ ?>
-                  <form action="\PHP_MVC/mvc/public/home/personal_data" method="post">
+                  <form action="\white_page/mvc/public/home/personal_data" method="post">
                     <button type="submit" name="logout-submit"class="button btn-link"><i class="fa fa-sign-out-alt"></i> Sign out</button>
                   </form>
                 <?php } ?>
